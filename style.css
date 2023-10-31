@@ -26,12 +26,13 @@ p {
 }
 
 
-#btn {
+#btn ,#card-btn {
     color: #016f32;
     width: 150px;
     background-color: goldenrod;
     border-radius: 2px;
     border: none;
+    margin-bottom: 5px;
     padding: 5px 10px;
     cursor: pointer;
     font-size: 16px;
