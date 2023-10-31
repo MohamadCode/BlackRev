@@ -1,6 +1,6 @@
 let firstCard = 4
 let secondCard = 2
-let cardsSum = firstCard + secondCard
+let cardsSum = firstCard + secondCard 
 let hasBlackJack = false
 let isAlive = true
 let message = ""
@@ -26,4 +26,6 @@ function startGame() {
 
 function newCard() {
     console.log("Drawing a new card from the deck !")
+    
+
 }
