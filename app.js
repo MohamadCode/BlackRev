@@ -16,7 +16,13 @@ function startGame() {
 
 
 function renderGame() {
-    cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1] 
+    cardsEl.textContent = "Cards: " 
+
+    for (let index = 0; index < cards.length; index++) {
+        cardsEl.textContent += cards[index] + " "
+        gi
+    }
+
     sumEl.textContent = "Sum: " + cardsSum
     
     if (cardsSum <= 21) {
@@ -40,3 +46,5 @@ function newCard() {
     console.log(cards)
     renderGame()
 }
+
+
