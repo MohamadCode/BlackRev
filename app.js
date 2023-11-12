@@ -19,7 +19,6 @@ playerEl.textContent = player.name + ": $" + player.chips
 
 
 
-
 function getRandomCard() {
     let randomnumeros = Math.floor( Math.random() * 13 ) + 1
 
